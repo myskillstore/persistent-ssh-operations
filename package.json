@@ -1,0 +1,17 @@
+{
+  "name": "persistent-ssh-operations",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Codex skill and local broker for reusing authenticated SSH connections on Windows.",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "check:syntax": "node --check scripts/persistent-ssh-broker.cjs"
+  },
+  "dependencies": {
+    "ssh2": "1.17.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

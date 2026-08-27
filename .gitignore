@@ -1,0 +1,14 @@
+node_modules/
+coverage/
+*.local.json
+*.local.yaml
+*.local.yml
+.env
+.env.*
+!.env.example
+*.log
+*.pid
+*.key
+*.pem
+runtime/
+

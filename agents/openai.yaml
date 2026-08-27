@@ -1,0 +1,8 @@
+interface:
+  display_name: "Persistent SSH Operations"
+  short_description: "Reuse authenticated SSH sessions for remote operations"
+  default_prompt: "Use $persistent-ssh-operations to run a sequence of authorized remote checks through one persistent SSH connection."
+
+policy:
+  allow_implicit_invocation: true
+

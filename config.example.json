@@ -1,0 +1,21 @@
+{
+  "profiles": {
+    "example": {
+      "host": "server.example.com",
+      "port": 22,
+      "username": "deploy",
+      "identityFile": "<path-to-private-key>",
+      "connectTimeoutMs": 30000,
+      "keepaliveIntervalMs": 30000,
+      "keepaliveCountMax": 3,
+      "maxOutputBytes": 16777216
+    },
+    "agent-example": {
+      "host": "server.example.com",
+      "port": 22,
+      "username": "deploy",
+      "useAgent": true
+    }
+  }
+}
+
